@@ -16,6 +16,8 @@
 		901F4B802B931E2100143720 /* TestApi_SaksharTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F4B7F2B931E2100143720 /* TestApi_SaksharTests.swift */; };
 		901F4B8A2B931E2100143720 /* TestApi_SaksharUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F4B892B931E2100143720 /* TestApi_SaksharUITests.swift */; };
 		901F4B8C2B931E2100143720 /* TestApi_SaksharUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F4B8B2B931E2100143720 /* TestApi_SaksharUITestsLaunchTests.swift */; };
+		901F4B992B931EB900143720 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F4B982B931EB900143720 /* Model.swift */; };
+		901F4B9B2B931F9300143720 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F4B9A2B931F9300143720 /* DetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		901F4B852B931E2100143720 /* TestApi_SaksharUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestApi_SaksharUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		901F4B892B931E2100143720 /* TestApi_SaksharUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApi_SaksharUITests.swift; sourceTree = "<group>"; };
 		901F4B8B2B931E2100143720 /* TestApi_SaksharUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApi_SaksharUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		901F4B982B931EB900143720 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		901F4B9A2B931F9300143720 /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				901F4B712B931E2000143720 /* Assets.xcassets */,
 				901F4B732B931E2000143720 /* LaunchScreen.storyboard */,
 				901F4B762B931E2000143720 /* Info.plist */,
+				901F4B982B931EB900143720 /* Model.swift */,
+				901F4B9A2B931F9300143720 /* DetailCell.swift */,
 			);
 			path = TestApi_Sakshar;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901F4B9B2B931F9300143720 /* DetailCell.swift in Sources */,
 				901F4B6D2B931E1E00143720 /* ViewController.swift in Sources */,
 				901F4B692B931E1E00143720 /* AppDelegate.swift in Sources */,
 				901F4B6B2B931E1E00143720 /* SceneDelegate.swift in Sources */,
+				901F4B992B931EB900143720 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
